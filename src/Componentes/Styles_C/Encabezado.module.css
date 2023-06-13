@@ -1,0 +1,95 @@
+.contenedor-encabezado{
+    /* border: solid; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0%;
+    background-color: var(--color4);
+}
+
+.encabezado-salir{
+    /* border: solid; */
+    width: 100%;
+    margin: 0%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-salir{
+    width: 30%;
+    height: 60%;
+    padding: 0%;
+    gap: 10%;
+    border-radius: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--titulos);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.salir-texto{
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado-modo{
+    /* border: solid; */
+    width: 98%;
+    margin: 0%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-modo{
+    width: 50%;
+    height: 60%;
+    gap: 10%;
+    border-radius: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--titulos);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.encabezado-usuario{
+    /* border: solid; */
+    height: 100%;
+    /* padding: 10%; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.usuario-foto{
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{
+    /* border: solid;  */
+    width: 30%;
+    border-radius: 50%; 
+}
+
+.usuario-nombre{
+    /* border: solid; */
+    background-color: var(--color6);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--titulos);
+    font-weight: bold;
+}

@@ -1,0 +1,112 @@
+.contenedor-all{
+    /* border: solid; */
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.contenedor-lateral{
+    /* border: solid; */
+    width: 100%;
+    background-color: var(--color4);
+    border-radius: 0px 0px 30px 0px;
+}
+
+.contenedor-cuerpo{
+    /* border: solid; */
+    display: grid;
+    grid-template-rows: 10% 90%;
+}
+
+.contenedor-encabezado{
+    /* border: solid; */
+    height: 100%;
+}
+
+.contenido-cuerpo{
+    /* border: solid; */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.contenido-centro{
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 40% 40%;
+}
+
+.centro-metricas{
+    /* border: solid; */
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1%;
+    margin-left: 1%;
+    
+}
+
+.centro-m_productos{
+    border: solid;
+    height: 100%;
+    border-radius: 20px 0;
+    background-color: var(--color5);
+    color: var(--color6);
+}
+
+.centro-m_pedidos{
+    /* border: solid; */
+    height: 100%;
+    border-radius: 20px 0;
+    background-color: var(--color2);
+    color: var(--color6);
+}
+
+.centro-m_ingresos{
+    /* border: solid; */
+    height: 100%;
+    border-radius: 20px 0;
+    background-color: var(--color3);
+    color: var(--color6);
+}
+
+.centro-productos{
+    /* border: solid; */
+    height: 100%;
+}
+
+.centro-usuarios{
+    /* border: solid; */
+    height: 100%
+}
+
+.contenido-lateral{
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.lateral-precio{
+    /* border: solid; */
+    width: 92%;
+    height: 100%;
+    margin-left: 5%;
+    border-radius: 20px 0;
+    background-color: var(--color1);
+    color: var(--color6);
+}
+
+.lateral-pedidos{
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+}
+
+section.centro-m_{
+    border: solid;
+    background-color: aqua;
+}

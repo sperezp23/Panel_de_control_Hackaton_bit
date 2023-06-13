@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+
+:root{
+    --color1:#142E29;
+    --color2:#18645A;
+    --color3:#039317;
+    --color4:#DE0025;
+    --color5:#4C1422;
+    --color6:#F0F2F2;
+    --titulos:'Gruppo', sans-serif;
+    --texto: 'Montserrat Alternates', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
