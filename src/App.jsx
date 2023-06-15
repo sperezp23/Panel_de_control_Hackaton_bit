@@ -1,7 +1,7 @@
 //Importación: enrutadores 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
-//Importación: mis Paginas
+//Importación: paginas
 import Panel_de_control from "./Paginas/Panel_de_control"
 import Productos from "./Paginas/Productos"
 import Pedidos from "./Paginas/Pedidos"

@@ -1,5 +1,4 @@
 .contenedor-producto{
-    
     border: solid var(--color2);
     font-family: var(--titulos);
     padding: 5%;
@@ -14,6 +13,7 @@
 
 .imagen{
     height: 200px;
+    width: 100%;
 }
 
 .producto-nombre{

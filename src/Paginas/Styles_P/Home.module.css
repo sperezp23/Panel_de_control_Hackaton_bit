@@ -26,7 +26,7 @@
     /* flex-direction: row; */
 }
 
-footer{
+.contenedor-footer{
     /* border: solid; */
     height: 100%;
     padding: 1%;
@@ -35,35 +35,15 @@ footer{
     text-align: center;
 
 }
-/* .contenedor-header{
-    border: solid;
-    height: 100%;
-    width: 100;
-}
 
-.header-navbar{
-    border: solid;
-    height: 100%;
+@media (max-width:400px) {
+    .cuerpo-productos{
+        display: grid;
+        padding: 5% 10%;
+        grid-template-columns: 80%;
+        gap: 2%;
+        row-gap: 5px;
+        padding-bottom: 60px;
+        /* flex-direction: row; */
+    }
 }
-
-.contenedor-body{
-    border:solid;
-    height: 100%;
-    width: 100%;
-}
-
-.body-contenido{
-    border: solid;
-    height: 100%;
-}
-
-.contenedor-footer{
-    border:solid;
-    height: 100%;
-    width: 100%;
-}
-
-.footer-contenido{
-    border: solid;
-    height: 100%;
-} */

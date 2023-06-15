@@ -42,20 +42,19 @@ export function Panel_de_control() {
                   
                   <section className={Styles_P["centro-m_productos"]}>
                     
-                    <Metricas valor={10} nombre='hola'/>
-
+                    <Metricas valor={20} nombre='Total de productos'/>
                     
                   </section>
 
                   <section className={Styles_P["centro-m_pedidos"]}>
                     
-                  <Metricas valor={10} nombre='hola'/>
+                  <Metricas valor={16} nombre='Total de pedidos'/>
 
                   </section>
 
                   <section className={Styles_P["centro-m_ingresos"]}>
                     
-                  <Metricas valor={10} nombre='Hola'/>
+                  <Metricas valor={3240.9199} nombre='Ingresos totaltes'/>
 
                   </section>
 
@@ -75,7 +74,7 @@ export function Panel_de_control() {
                 
                 <section className={Styles_P["lateral-precio"]}>
                   
-                <Metricas valor={10} nombre='hola'/>
+                <Metricas valor={3240.9199/20} nombre='Precio promedio'/>
 
                 </section>
 
@@ -88,7 +87,7 @@ export function Panel_de_control() {
             </section>
         
         </main>
-        
+
       </section>
 
     </Fragment>

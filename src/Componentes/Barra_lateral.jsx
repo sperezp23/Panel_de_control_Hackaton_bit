@@ -70,9 +70,7 @@ export function Barra_lateral() {
             <h2>CENTRO DE AYUDA</h2>
             
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad neque harum inventore,
-              nulla at impedit quia sint. Cum possimus ipsa natus omnis, itaque voluptates libero
-              aspernatur nulla hic rem porro.
+              Si necesitas ayuda, intenta dando click en el boton.
             </p>
 
           </section>

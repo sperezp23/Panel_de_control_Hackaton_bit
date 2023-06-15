@@ -24,7 +24,7 @@ function Producto({imagen, nombre, precio}) {
 
             <section className={Styles_C['producto-precio']}>
                 
-                <p className={Styles_C['precio']}>{precio}</p>
+                <p className={Styles_C['precio']}>{precio}$</p>
 
                 <button className={Styles_C["boton-agregar"]}>Añadir al carriro</button>
 

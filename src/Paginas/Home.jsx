@@ -1,5 +1,6 @@
 //Importaciones
-import { Fragment } from "react"
+import { Fragment,useState,useEffect} from "react"
+
 
 //Importación: componentes
 import NavBar from "../Componentes/navbar"
@@ -12,12 +13,32 @@ import image from "../assets/Logo/Logo_1.png"
 //Estilos
 import Styles_P from "./Styles_P/Home.module.css"
 
-//Compoente
+//Componente
 export function Home() {
 
-  const menuNav =[
+  const [productos, setProductos] = useState([]);
+  
+  const callIAPI = (async () => {
+    let res = await fetch("https://fakestoreapi.com/products")
+    let data = await res.json()
+    return data
+  })
+
+  useEffect(() => {
+
+    callIAPI().then(res => {
+      //  console.log(res)
+        setProductos(res)
+    }).catch(error => {
+        console.log(error)
+    })
+  }, [])
+
+
+    const menuNav =[
     { opcion:'Panel de control',link:'/'},
   ];
+
 
   return (
     <Fragment>
@@ -38,9 +59,14 @@ export function Home() {
 
           <section className={Styles_P["cuerpo-productos"]}>
 
-            <Producto nombre='hola' precio='precio :v' imagen= {image}/>
-            <Producto nombre='hola' precio='precio :v' imagen= {image}/>
-            <Producto nombre='hola' precio='precio :v' imagen= {image}/>
+            {productos.map(producto => (
+              <Fragment key={producto["id"]}>
+                  
+                <Producto  nombre={producto["title"]} precio={producto["price"]} imagen= {producto["image"]}/>
+  
+              </Fragment>
+            ))
+            }
 
           </section>
 
