@@ -34,9 +34,8 @@ function Pedidos() {
           </section>
 
         </main> 
-        
-      </section>
 
+      </section>
 
     </Fragment>
   )

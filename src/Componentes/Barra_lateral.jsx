@@ -29,7 +29,7 @@ export function Barra_lateral() {
 
           <section className={Styles_C["contenedor-links"]}>
 
-            <a className={Styles_C["pagina_link"]} href="/productos">
+            <a className={Styles_C["pagina_link"]} href="/home">
 
               <box-icon type='solid' name='balloon' color="currentcolor"></box-icon>
               <h3 className={Styles_C["Titulo-link"]}>Productos</h3>
@@ -50,10 +50,10 @@ export function Barra_lateral() {
 
             </a>
 
-            <a className={Styles_C["pagina_link"]} href="">
+            <a className={Styles_C["pagina_link"]} href="/home">
 
-              <box-icon type='regular' name='user' color="currentcolor"></box-icon>
-              <h3 className={Styles_C["Titulo-link"]}>Usuarios/Reviws</h3>
+              <box-icon type='regular' name='home' color="currentcolor"></box-icon>
+              <h3 className={Styles_C["Titulo-link"]}>Home</h3>
 
             </a>
             
@@ -76,8 +76,6 @@ export function Barra_lateral() {
             </p>
 
           </section>
-
-
 
           <button className={Styles_C["boton-ayuda"]}>Ir al centro de ayuda</button>
 

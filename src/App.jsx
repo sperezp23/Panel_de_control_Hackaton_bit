@@ -6,6 +6,7 @@ import Panel_de_control from "./Paginas/Panel_de_control"
 import Productos from "./Paginas/Productos"
 import Pedidos from "./Paginas/Pedidos"
 import Graficas from "./Paginas/Graficas"
+import Home from "./Paginas/Home"
 
 //Impotación: estilos
 import "./App.css"
@@ -23,10 +24,11 @@ export function App() {
 
           <Routes>
 
-            <Route path='/' element={<Panel_de_control/>}/>
-            <Route path='/Graficas' element={<Graficas/>}/>
-            <Route path='/Pedidos' element={<Pedidos/>}/>
-            <Route path='/Productos' element={<Productos/>}/>
+            <Route path="/" element={<Panel_de_control/>}/>
+            <Route path="/Graficas" element={<Graficas/>}/>
+            <Route path="/Pedidos" element={<Pedidos/>}/>
+            <Route path="/Productos" element={<Productos/>}/>
+            <Route path="/Home" element={<Home/>}/>
               
           </Routes>
 
